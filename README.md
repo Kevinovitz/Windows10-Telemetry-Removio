@@ -7,29 +7,29 @@ Add the following registry entries to the registry.
 
 ## Privacy / Telemetry
 
-'''cmd
+```cmd
 reg add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Option\wsqmcons.exe" /v Debugger /t REG_SZ /d "%windir%\System32\taskkill.exe" /f
 reg add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Option\CompatTelRunner.exe" /v Debugger /t REG_SZ /d "%windir%\System32\taskkill.exe" /f
 reg add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Option\devicecensus.exe" /v Debugger /t REG_SZ /d "%windir%\System32\taskkill.exe" /f
 reg add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Option\gamebarpresencewriter.exe" /v Debugger /t REG_SZ /d "%windir%\System32\taskkill.exe" /f
 reg add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Option\wwahost.exe" /v Debugger /t REG_SZ /d "%windir%\System32\taskkill.exe" /f
-'''
+```
 
 ## Microsoft Update
 
-'''cmd
+```cmd
 reg add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Option\MusNotification.exe" /v Debugger /t REG_SZ /d "%windir%\System32\taskkill.exe" /f
 reg add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Option\MusNotificationUx.exe" /v Debugger /t REG_SZ /d "%windir%\System32\taskkill.exe" /f
 reg add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Option\MusNotifyIcon.exe" /v Debugger /t REG_SZ /d "%windir%\System32\taskkill.exe" /f
-'''
+```
 
 ## Microsoft Edge
 
-'''cmd
+```cmd
 reg add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Option\elevation_service.exe" /v Debugger /t REG_SZ /d "%windir%\System32\taskkill.exe" /f
 reg add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Option\edgeupdate.exe" /v Debugger /t REG_SZ /d "%windir%\System32\taskkill.exe" /f
 reg add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Option\MicrosoftEdgeUpdate.exe" /v Debugger /t REG_SZ /d "%windir%\System32\taskkill.exe" /f
-'''
+```
 
 ## References
 
